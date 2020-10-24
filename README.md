@@ -1,6 +1,6 @@
 # InventoryFunctions
 
-## HowDo
+## How to use
 
 ### /create: case first input item
 * post json data 
