@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cf1a154-670d-4d77-81ac-cc7c091e6e80" name="Default Changelist" comment="" />
+    <list default="true" id="8cf1a154-670d-4d77-81ac-cc7c091e6e80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/InventoryModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OrderModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ItemModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ItemModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jJRrykRBEGMFSSW4la0x78KwT1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +57,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603520412843</updated>
-      <workItem from="1603520414810" duration="7185000" />
+      <workItem from="1603520414810" duration="7675000" />
+      <workItem from="1604991590117" duration="8717000" />
     </task>
     <servers />
   </component>
@@ -49,6 +66,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="354" y="135" key="#Inspections" timestamp="1604993779037">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1604993779037" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1604999948123">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1604999948123" />
+    <state x="590" y="354" key="Github.ShareDialog" timestamp="1603528169318">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="590" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1603528169318" />
+    <state x="503" y="162" key="Github.UntrackedFilesDialog" timestamp="1603528175735">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603528175735" />
     <state x="385" y="210" key="run.anything.popup" timestamp="1603521074315">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
