@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cf1a154-670d-4d77-81ac-cc7c091e6e80" name="Default Changelist" comment="" />
+    <list default="true" id="8cf1a154-670d-4d77-81ac-cc7c091e6e80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/InventoryModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/OrderModel.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InventoryModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utility/ItemData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrderModel.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +24,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jJRrykRBEGMFSSW4la0x78KwT1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,6 +52,12 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/model" />
+      <recent name="$PROJECT_DIR$/src/controller" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,17 +66,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603520412843</updated>
-      <workItem from="1603520414810" duration="7185000" />
+      <workItem from="1603520414810" duration="7675000" />
+      <workItem from="1604991590117" duration="20197000" />
     </task>
+    <task id="LOCAL-00001" summary="3層構造に変更の準備">
+      <created>1605001209068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605001209068</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3層構造に変更の準備" />
+    <option name="LAST_COMMIT_MESSAGE" value="3層構造に変更の準備" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="210" key="run.anything.popup" timestamp="1603521074315">
+    <state x="354" y="135" key="#Inspections" timestamp="1604993779037">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1603521074315" />
+    <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1604993779037" />
+    <state x="611" y="202" key="#com.intellij.ide.util.MemberChooser" timestamp="1605205486911">
+      <screen x="0" y="0" width="1650" height="1050" />
+    </state>
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1605005172590" />
+    <state x="611" y="202" key="#com.intellij.ide.util.MemberChooser/0.0.1650.1050/-1920.0.1920.1080@0.0.1650.1050" timestamp="1605205486911" />
+    <state x="297" y="23" width="846" height="824" key="CommitChangelistDialog2" timestamp="1605001208910">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="23" width="846" height="824" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605001208910" />
+    <state x="590" y="354" key="Github.ShareDialog" timestamp="1603528169318">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="590" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1603528169318" />
+    <state x="503" y="162" key="Github.UntrackedFilesDialog" timestamp="1603528175735">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1603528175735" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1605003262249">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1605003262249" />
   </component>
 </project>
