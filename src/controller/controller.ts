@@ -74,7 +74,9 @@ export class Controller {
                     await this.inventoryModel.delete(body.code)
                 }else{
                     if(item.num-body.num <= item.limit){
-                        await this.orderModel.create(item.code,item.name,item.limit,item.num-body.num)
+                        if(!place.orderExist) {
+                            await this.orderModel.create(item.code, item.name, item.limit, item.num - body.num)
+                        }
                     }
                     await this.inventoryModel.update(body.code,-1*body.num)
                 }
@@ -105,30 +107,5 @@ export class Controller {
         }catch (e) {
             return {inventoryExist: false,orderExist: false}
         }
-    }
-
-    async checkNum(place: number, code: string):Promise<number>{
-        if(place === 0) {
-            const data = await this.inventoryModel.getData(code)
-            if (data.num === 0) {
-                await this.inventoryModel.getData(data.id)
-                return -2
-            } else if (data.num <= data.limit) {
-                await this.inventoryModel.delete(code)
-                await this.orderModel.create(data.code, data.name, data.limit, data.num)
-                return 1
-            }
-        }else if(place === 1){
-            const data = await this.orderModel.getData(code)
-            if(data.num === 0) {
-                await this.orderModel.delete(data.code)
-                return -2
-            }else if(data.num > data.limit){
-                await this.orderModel.delete(code)
-                await this.inventoryModel.create(data.code,data.name,data.limit,data.num)
-                return 0
-            }
-        }
-        return place
     }
 }

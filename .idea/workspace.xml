@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8cf1a154-670d-4d77-81ac-cc7c091e6e80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ItemModel.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,8 @@
       <workItem from="1605339561528" duration="111000" />
       <workItem from="1605399863755" duration="204000" />
       <workItem from="1605579209699" duration="2451000" />
-      <workItem from="1605596037197" duration="1656000" />
+      <workItem from="1605596037197" duration="1989000" />
+      <workItem from="1605635359368" duration="501000" />
     </task>
     <task id="LOCAL-00001" summary="3層構造に変更の準備">
       <created>1605001209068</created>
@@ -85,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605206832250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="increaseとdecreaseのアルゴリズムの変更&#10;inventoryとOrder両方に入る状態を作成">
+      <created>1605602833285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605602833285</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,7 +100,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3層構造に変更の準備" />
     <MESSAGE value="3層構造に変更" />
-    <option name="LAST_COMMIT_MESSAGE" value="3層構造に変更" />
+    <MESSAGE value="increaseとdecreaseのアルゴリズムの変更&#10;inventoryとOrder両方に入る状態を作成" />
+    <option name="LAST_COMMIT_MESSAGE" value="increaseとdecreaseのアルゴリズムの変更&#10;inventoryとOrder両方に入る状態を作成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1604993779037">
@@ -106,10 +113,10 @@
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1605005172590" />
     <state x="611" y="202" key="#com.intellij.ide.util.MemberChooser/0.0.1650.1050/-1920.0.1920.1080@0.0.1650.1050" timestamp="1605205486911" />
-    <state x="340" y="27" width="846" height="824" key="CommitChangelistDialog2" timestamp="1605206832092">
-      <screen x="0" y="0" width="1650" height="1050" />
+    <state x="297" y="23" width="846" height="824" key="CommitChangelistDialog2" timestamp="1605602832987">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="23" width="846" height="824" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605001208910" />
+    <state x="297" y="23" width="846" height="824" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605602832987" />
     <state x="340" y="27" key="CommitChangelistDialog2/0.0.1650.1050/-1920.0.1920.1080@0.0.1650.1050" timestamp="1605206832092" />
     <state x="590" y="354" key="Github.ShareDialog" timestamp="1603528169318">
       <screen x="0" y="0" width="1440" height="900" />
