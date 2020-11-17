@@ -45,21 +45,32 @@ router.post('/getAll', (req:express.Request, res:express.Response) => {
 // 入荷　
 router.post('/increase', (req:express.Request, res:express.Response) => {
     controller.increment(req).then(data => {
-        res.status(200)
-        res.send(data)
+        if(data){
+            res.status(200)
+        }else{
+            res.status(500)
+        }
+        res.send()
     }).catch(e => {
         log(e.toString())
-        res.send(400)
+        res.status(400)
+        res.send()
     })
 })
 
 // 数を減らす
 router.post('/decrease', (req:express.Request, res:express.Response) => {
     controller.decrement(req).then(data => {
-        res.send(data)
+        if(data){
+            res.status(200)
+        }else{
+            res.status(500)
+        }
+        res.send()
     }).catch(e => {
         log(e.toString())
-        res.send(400)
+        res.status(400)
+        res.send()
     })
 })
 
