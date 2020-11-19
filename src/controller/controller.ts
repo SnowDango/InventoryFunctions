@@ -14,14 +14,24 @@ export class Controller {
     inventoryModel = new InventoryModel(firestore,FieldValue)
     orderModel = new OrderModel(firestore,FieldValue)
 
-    async create(req: e.Request):Promise<{id:string,code:string,name:string,num:string,limit:string}> {
+    async create(req: e.Request):Promise<boolean> {
         const body = req.body
         const code = body.code
         const num = body.num
         const limit = body.limit
         const name = body.name
-        const id = await this.inventoryModel.create(code, name, limit, num)
-        return {id:id,code:code,name:name,num:num,limit:limit}
+        const place = await this.searchPlace(code)
+        if(place.inventoryExist){
+            return false
+        }else if(place.orderExist){
+            await this.orderModel.update(code,num)
+            const data = await this.orderModel.getData(code)
+            await this.inventoryModel.create(data.code,data.name,data.limit,num)
+            return true
+        }else {
+            await this.inventoryModel.create(code, name, limit, num)
+            return true
+        }
     }
 
 

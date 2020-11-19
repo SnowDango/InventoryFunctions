@@ -11,14 +11,17 @@ const controller = new Controller()
 // 最初の入荷
 router.post('/create', (req:express.Request, res:express.Response) => {
     controller.create(req).then(data => {
+        if(data){
             res.status(200)
+        }else{
+            res.status(500)
+        }
             res.send({data:data})
-        }
-    ).catch(e => {
-            log(e.toString())
-            res.status(400)
-        }
-    )
+    }).catch(e => {
+        log(e.toString())
+        res.status(400)
+        res.send()
+    })
 })
 
 router.post('/createOrder',(req:express.Request, res:express.Response) => {
